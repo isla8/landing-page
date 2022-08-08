@@ -1,5 +1,5 @@
 * {
-    font-style; "roboto";
+    font-style: "roboto", arial; 
 }
 
 img {
@@ -10,11 +10,13 @@ img {
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
-    margin: 10px;
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
-     
+}
+
+h1 {
+    margin:0;
 }
 
 .headerLogo {
@@ -24,6 +26,7 @@ img {
     align-items: center;
     justify-content: stretch;
     flex-grow: 1;
+    padding: 8px;
 }
 
 .headerLinks {
@@ -35,4 +38,19 @@ img {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.sectionOne {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 30px;
+    padding-bottom: 60px;
+}
+
+.darkBackground {
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    gap: 0;
 }
