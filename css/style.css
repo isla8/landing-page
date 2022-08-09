@@ -26,7 +26,7 @@ h1 {
     align-items: center;
     justify-content: stretch;
     flex-grow: 1;
-    padding-left: 100px;
+    padding-left: 120px;
 }
 
 .headerLinks {
@@ -38,7 +38,7 @@ h1 {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding-right: 100px;
+    padding-right: 120px;
 }
 
 .sectionOne {
@@ -47,8 +47,8 @@ h1 {
     margin: 0;
     padding: 30px;
     padding-bottom: 60px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -63,4 +63,33 @@ h1 {
 .leftOfImage {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.headTwoText {
+    display: flex;
+    justify-content: center;
+}
+
+.imageBoxes {
+    display: flex;
+    flex-direction: row;
+    padding: 120px;
+    justify-content: space-between;
+}
+
+.box {
+    border-color: #4186e7;
+    width: 175px;
+    border-radius: 25px;
+    height: 175px;
+    border-style: solid;
+}
+
+.footer {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
 }
