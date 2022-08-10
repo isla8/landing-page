@@ -108,6 +108,31 @@ h1 {
 .callToAction {
     background-color: #3882f6;
     color: #F9FAF8;
-    margin-left: 200px;
-    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    margin: 75px 200px;
+    text-decoration: none;
+    
+}
+
+.quoteButtonTwo {
+    text-decoration: none;
+    color: #F9FAF8;
+    background-color: #3882f6;    
+}
+
+.text {
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.credits {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 20px;
+    color:#F9FAF8
 }
