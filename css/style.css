@@ -88,8 +88,26 @@ h1 {
     border-style: solid;
 }
 
-.footer {
-    padding-top: 25px;
+.containerSecTwo {
+    background-color: #E5E7EB;
+    font-size: 36px;
     display: flex;
     justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.quoteReference {
+    font-size: 20px;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    font-style: bold;
+}
+
+.callToAction {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    margin-left: 200px;
+    margin-right: 200px;
 }
