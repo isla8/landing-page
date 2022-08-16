@@ -111,11 +111,12 @@ h1 {
     background-color: #3882f6;
     color: #F9FAF8;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     padding: 10px 0;
     margin: 75px 200px;
     text-decoration: none;
+    padding-left: 50px;
+    gap: 75px;
     
 }
 
@@ -125,8 +126,14 @@ h1 {
     background-color: #3882f6;    
 }
 
+.quote {
+    font-size: 36px;
+}
+
 .text {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     align-items: flex-end;
     text-decoration: none;
 }
